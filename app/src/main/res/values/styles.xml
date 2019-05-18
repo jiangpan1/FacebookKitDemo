@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppLoginTheme" parent="Theme.AccountKit.Outline">
+        <item name="com_accountkit_background">@mipmap/bg</item>
+        <item name="com_accountkit_background_color">#01000000</item>
+        <item name="com_accountkit_button_disabled_background_color">#d4d4d4</item>
+        <item name="com_accountkit_button_background_color">@color/colorPrimary</item>
+    </style>
+</resources>
